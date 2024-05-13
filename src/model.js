@@ -12,32 +12,32 @@ export const model = [
     },
   }),
 
-  new ImageBlock(image, {
-    styles: {
-      padding: '30px 0',
-      display: 'flex',
-      'justify-content': 'center',
-    },
-    imageStyles: {
-      width: '500px',
-      height: 'auto',
-    },
-  }),
+  // new ImageBlock(image, {
+  //   styles: {
+  //     padding: '30px 0',
+  //     display: 'flex',
+  //     'justify-content': 'center',
+  //   },
+  //   imageStyles: {
+  //     width: '500px',
+  //     height: 'auto',
+  //   },
+  // }),
 
-  new ColumnsBlock(['1111', '2222', '3333'], {
-    styles: {
-      background: 'linear-gradient(to bottom, #8e2de2, #4a00e0)',
-      padding: '30px',
-      color: 'fff',
-      'font-weight': 'bold',
-    },
-  }),
+  // new ColumnsBlock(['1111', '2222', '3333'], {
+  //   styles: {
+  //     background: 'linear-gradient(to bottom, #8e2de2, #4a00e0)',
+  //     padding: '30px',
+  //     color: 'fff',
+  //     'font-weight': 'bold',
+  //   },
+  // }),
 
-  new TextBlock('some text', {
-    styles: {
-      background: 'linear-gradient(to left, #f2994a, #f2c94c)',
-      'font-weight': 'bold',
-      padding: '1rem',
-    },
-  }),
+  // new TextBlock('some text', {
+  //   styles: {
+  //     background: 'linear-gradient(to left, #f2994a, #f2c94c)',
+  //     'font-weight': 'bold',
+  //     padding: '1rem',
+  //   },
+  // }),
 ];

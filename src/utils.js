@@ -13,6 +13,25 @@ export function css(styles = {}) {
 }
 
 export function block(type) {
+  if (type === 'image') {
+    return `
+      <form name="${type}">
+        <h5>${type}</h5>
+        <div class="form-group">
+         <input class="form-control form-control-sm" name="value" placeholder="value">
+       </div>
+       <div class="form-group">
+         <input class="form-control form-control-sm" name="styles" placeholder="styles">
+       </div>
+       <div class="form-group">
+         <input class="form-control form-control-sm" name="imageStyles" placeholder="image styles">
+       </div>
+       <button type="submit" class="btn btn-primary btn-sm">Добавить</button>
+     </form>
+     <hr />
+  `;
+  }
+
   return `
  <form name="${type}">
       <h5>${type}</h5>
